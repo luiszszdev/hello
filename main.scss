@@ -1,0 +1,13 @@
+$color: #f4f44f;
+
+.prueba{
+    background-color: #f60404;
+}
+
+.prueba2{
+    @extend .prueba;
+}
+
+body{
+    background-color: $color;
+}
